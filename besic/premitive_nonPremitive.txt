@@ -1,0 +1,27 @@
+# Primitive data types are immutable, which means their values cannot be changed 
+  once they are created.
+# They are stored directly in memory, and their values are accessed by their actual value.
+
+# There are six primitive data types in JavaScript: 
+
+  1. undefined: Represents an uninitialized variable or missing property.
+  2. null: Represents the intentional absence of any object value.
+  3. boolean: Represents a logical entity and can have two values: true or false.
+  4. number: Represents numeric values, including integers and floating-point numbers.
+  5. string: Represents a sequence of characters, enclosed within single quotes ('') 
+     or double quotes ("").
+  6. symbol (added in ECMAScript 6): Represents a unique and immutable value 
+     used as the key of an object property.
+
+
+# Non-primitive data types are mutable, which means their values can be changed 
+   after they are created.
+# They are stored by reference in memory, and their values are accessed by reference.
+
+# There are three non-primitive data types in JavaScript:
+
+  1. object: Represents a collection of key-value pairs where keys are strings (or symbols) 
+     and values can be of any data type, including other objects.
+  2. function: Represents executable code, usually associated with an object.
+  3. array: A special type of object that represents a list of elements, with numeric indices 
+     starting from 0.
