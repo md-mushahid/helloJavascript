@@ -1,0 +1,56 @@
+----------------------- ARROW FUNCTION --------------------------------
+
+1. Traditional anonymous function
+   (function (a) {
+     return a + 100;
+   });
+  
+   Remove the word "function" and place arrow between the argument and opening body brace
+   (a) => {
+     return a + 100;
+   };
+
+   Remove the body braces and word "return" — the return is implied.
+   (a) => a + 100;
+  
+   Remove the parameter parentheses
+   a => a + 100;
+
+
+2. Traditional anonymous function
+
+   (function (a, b) {
+     return a + b + 100;
+   });
+  
+   Arrow function
+   (a, b) => a + b + 100;
+  
+   const a = 4;
+   const b = 2;
+  
+   Traditional anonymous function (no parameters)
+   (function () {
+     return a + b + 100;
+   });
+   
+   Arrow function (no parameters)
+   () => a + b + 100;
+
+3. Arrow function expressions should only be used for non-method functions,
+   because they do not have their own this keyword.
+
+4. Arrow functions cannot be used as constructors and will throw an error when called with new.
+   They also do not have a prototype property.
+
+5. When to use Arrow function:
+
+   a. Implicit return: If the function body consists of a single expression, 
+      arrow functions can omit the {} braces and the return keyword, implicitly 
+      returning the result of the expression.
+
+   b. Shorter syntax for anonymous functions: Arrow functions provide a more concise
+      syntax for defining functions, especially when you need short, one-liner functions.
+
+   c. When using functional programming techniques: Arrow functions are often used in conjunction
+      with array methods like map, filter, reduce, etc., where concise syntax is preferred. 
