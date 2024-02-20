@@ -1,4 +1,3 @@
-
 // In sparse arrays, for...of will visit the empty slots, but for...in will not.
 // It is better to use a for loop with a numeric index, Array.prototype.forEach(), or the for...of
 // for..in access the kye of object/array
